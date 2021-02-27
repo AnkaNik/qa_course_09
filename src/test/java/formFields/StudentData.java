@@ -5,7 +5,7 @@ import com.github.javafaker.Faker;
 import java.util.concurrent.ThreadLocalRandom;
 
 
-public class RandomValue<phone> {
+public class StudentData<phone> {
 
     Faker faker = new Faker();
 
