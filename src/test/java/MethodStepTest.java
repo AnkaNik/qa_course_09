@@ -19,19 +19,4 @@ public class MethodStepTest {
 
         steps.shouldSeeIssueWithNumber(ISSUE_NUMBER);
     }
-
-    @Test
-    @Disabled
-    public void testIssueCreate() {
-        final String title = "Новая задача";
-
-        steps.openMainPage();
-        steps.searchForRepository(REPOSITORY);
-        steps.goToRepositoryFromSearch(REPOSITORY);
-        steps.openRepositoryIssues();
-
-        steps.createIssueWithTitle(ISSUE_TITLE);
-        steps.shouldSeeIssueWithTitle(title);
-    }
-
 }
