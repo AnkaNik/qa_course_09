@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
- class LambdaStepTest {
+ class LambdaStepTest extends TestConfiguration{
 
     private static final String BASE_URL = "http://github.com";
 

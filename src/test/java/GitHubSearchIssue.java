@@ -2,12 +2,11 @@ import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
-import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-class GitHubIssueTest {
+class GitHubIssueTest  extends TestConfiguration{
 
     private static final String BASE_URL = "http://github.com";
     private static final String ISSUES = "Issues";

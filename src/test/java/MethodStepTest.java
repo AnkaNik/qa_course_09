@@ -1,7 +1,6 @@
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
-public class MethodStepTest {
+public class MethodStepTest extends TestConfiguration{
 
     final BaseSteps steps = new BaseSteps();
 
