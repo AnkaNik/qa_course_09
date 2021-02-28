@@ -15,7 +15,7 @@ public class MethodStepTest extends TestConfiguration{
         steps.searchForRepository(REPOSITORY);
         steps.goToRepositoryFromSearch(REPOSITORY);
         steps.openRepositoryIssues();
-
         steps.shouldSeeIssueWithNumber(ISSUE_NUMBER);
+        steps.shouldSeeIssueWithTitle(ISSUE_TITLE);
     }
 }

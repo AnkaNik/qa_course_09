@@ -13,9 +13,7 @@ import static io.qameta.allure.Allure.step;
  class LambdaStepTest extends TestConfiguration{
 
     private static final String BASE_URL = "http://github.com";
-
     private static final String ISSUES = "Issues";
-
     private static final String REPOSITORY = "AnkaNik/qa_courses_07";
     private static final String ISSUE_TITLE = "Test Issue HW05";
 
