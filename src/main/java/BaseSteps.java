@@ -51,6 +51,4 @@ public class BaseSteps {
     public void shouldSeeIssueWithNumber(final String number) {
         $(withText(number)).should(Condition.exist);
     }
-
-
 }
