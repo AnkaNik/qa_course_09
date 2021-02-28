@@ -21,6 +21,7 @@ compileJava {
 
 allure {
     autoconfigure = true
+    aspectjweaver = true
     version = '2.13.8'
 
     useJUnit5 {
